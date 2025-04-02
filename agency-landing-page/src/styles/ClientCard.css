@@ -1,0 +1,41 @@
+.client-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 300px;
+    text-align: center;
+}
+
+.client-card-container img {
+    border-radius: 100px;
+    width: 15%;
+}
+
+#client-passage {
+    font-size: small;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.5;
+    color: var(--very-dark-grayish-blue);
+    margin-bottom: 35px;
+}
+
+#client-name {
+    font-family: "Ultra", serif;
+    font-weight: 100;
+    font-style: normal;
+    color: var(--very-dark-desaturated-blue);
+    font-size: small;
+    margin-bottom: 5px;
+}
+
+#client-job {
+    font-size: small;
+    font-family: "Barlow", sans-serif;
+    font-size: x-small;
+    font-weight: 600;
+    color: var(--grayish-blue);
+    margin-top: 0;
+}

@@ -1,0 +1,42 @@
+body {
+    background-color: hsl(148, 38%, 91%);
+    font-family: "Barlow", sans-serif;
+    font-style: normal;
+    color: hsl(187, 24%, 22%)
+}
+
+.contact-form-container{
+    max-width: 400px;
+    height: 500px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: x-small;
+    font-weight: 500;
+}
+
+input{
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    height: 25px;
+}
+
+.name-container{
+    display: flex;
+    gap: 25px;
+}
+
+.name-container div{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+.name-container input{
+    width: 100%;
+}

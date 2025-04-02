@@ -1,0 +1,19 @@
+/* Знімаємо відступи та поля для body */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: hsl(0, 0%, 100%);
+}
+
+/* Додаємо border-box для всіх елементів, щоб легше контролювати розміри */
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Прибираємо відступи в списку */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

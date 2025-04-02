@@ -1,0 +1,46 @@
+/* Для розміщення `span` блоків один під одним */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Это важно для правильного расчета ширины и высоты */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.first-two-images {
+  display: flex;
+  flex-direction: row;
+}
+
+.second-two-images {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Для розміщення `TextBox` і `Image` поруч усередині `span` */
+.down-two-images {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+@media(max-width: 500px) {
+  .first-two-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .second-two-images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .down-two-images{
+    display: flex;
+    flex-direction: column;
+  }
+}
